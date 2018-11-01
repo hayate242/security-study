@@ -1,0 +1,160 @@
+root@1ec3cbcf71ba:/# ps auxf
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        71  0.0  0.3  18236  3156 pts/0    Ss   06:40   0:00 bash
+root        82  0.0  0.2  34424  2808 pts/0    R+   06:41   0:00  \_ ps auxf
+root         1  0.0  0.1   4504  1560 ?        Ss   06:17   0:00 /bin/sh /usr/sbin/apache2ctl -D FOREGROUND
+root        14  0.0  0.4  71576  4724 ?        S    06:17   0:00 /usr/sbin/apache2 -D FOREGROUND
+www-data    15  0.0  0.3 360740  4032 ?        Sl   06:17   0:00  \_ /usr/sbin/apache2 -D FOREGROUND
+www-data    16  0.0  0.4 426340  4512 ?        Sl   06:17   0:00  \_ /usr/sbin/apache2 -D FOREGROUND
+
+root@haconiwa-sample:/# ps auxf
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.1  0.3  18216  3172 pts/2    S    06:45   0:00 /bin/bash
+root        11  0.0  0.2  34424  2716 pts/2    R+   06:45   0:00 ps auxf
+
+
+vagrant@ubuntu-xenial:~/samplefiles$ ps auxf  
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         2  0.0  0.0      0     0 ?        S    06:12   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [kworker/u4:0]
+root         7  0.0  0.0      0     0 ?        R    06:12   0:00  \_ [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [migration/0]
+root        10  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [watchdog/1]
+root        12  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [migration/1]
+root        13  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [ksoftirqd/1]
+root        14  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [kworker/1:0]
+root        15  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [kworker/1:0H]
+root        16  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [kdevtmpfs]
+root        17  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [netns]
+root        18  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [perf]
+root        19  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [khungtaskd]
+root        20  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [writeback]
+root        21  0.0  0.0      0     0 ?        SN   06:12   0:00  \_ [ksmd]
+root        22  0.0  0.0      0     0 ?        SN   06:12   0:00  \_ [khugepaged]
+root        23  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [crypto]
+root        24  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [kintegrityd]
+root        25  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [bioset]
+root        26  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [kblockd]
+root        27  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [ata_sff]
+root        28  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [md]
+root        29  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [devfreq_wq]
+root        30  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [kworker/u4:1]
+root        34  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [kswapd0]
+root        35  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [vmstat]
+root        36  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [fsnotify_mark]
+root        37  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [ecryptfs-kthrea]
+root        53  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [kthrotld]
+root        54  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [acpi_thermal_pm]
+root        55  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [bioset]
+root        56  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [bioset]
+root        57  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [bioset]
+root        58  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [bioset]
+root        59  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [bioset]
+root        60  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [bioset]
+root        61  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [bioset]
+root        62  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [bioset]
+root        63  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [scsi_eh_0]
+root        64  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [scsi_tmf_0]
+root        65  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [scsi_eh_1]
+root        66  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [scsi_tmf_1]
+root        72  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [ipv6_addrconf]
+root        85  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [deferwq]
+root        86  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [charger_manager]
+root       125  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [kpsmoused]
+root       155  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [mpt_poll_0]
+root       156  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [mpt/0]
+root       157  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [scsi_eh_2]
+root       158  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [scsi_tmf_2]
+root       159  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [bioset]
+root       160  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [bioset]
+root       264  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [raid5wq]
+root       294  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [bioset]
+root       313  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [jbd2/sda1-8]
+root       314  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [ext4-rsv-conver]
+root       372  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [kworker/1:1H]
+root       398  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [iscsi_eh]
+root       400  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [kworker/0:2]
+root       406  0.0  0.0      0     0 ?        S    06:12   0:00  \_ [kauditd]
+root       410  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [ib_addr]
+root       417  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [ib_mcast]
+root       418  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [ib_nl_sa_wq]
+root       423  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [ib_cm]
+root       424  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [iw_cm_wq]
+root       426  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [rdma_cm]
+root       556  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [iprt-VBoxWQueue]
+root       753  0.0  0.0      0     0 ?        S<   06:12   0:00  \_ [kworker/0:1H]
+root      3789  0.0  0.0      0     0 ?        S    06:25   0:00  \_ [kworker/1:1]
+root      3902  0.0  0.0      0     0 ?        S    06:27   0:00  \_ [kworker/0:1]
+root      4085  0.0  0.0      0     0 ?        S    06:42   0:00  \_ [kworker/1:2]
+root      4122  0.0  0.0      0     0 ?        S    06:42   0:00  \_ [kworker/u4:2]
+root         1  0.1  0.6  38172  6140 ?        Ss   06:12   0:02 /sbin/init
+root       395  0.0  0.2  28352  3024 ?        Ss   06:12   0:00 /lib/systemd/systemd-journald
+root       445  0.0  0.1  94772  1556 ?        Ss   06:12   0:00 /sbin/lvmetad -f
+root       464  0.0  0.3  42484  3872 ?        Ss   06:12   0:00 /lib/systemd/systemd-udevd
+root       886  0.0  0.0  16120   856 ?        Ss   06:12   0:00 /sbin/dhclient -1 -v -pf /run/dhclient.enp0s3.pid -lf /var/lib/dhcp/dhclient.enp0s3.leases -I -df /var/lib/dhcp/dhcl
+root      1029  0.0  0.0   5220   152 ?        Ss   06:12   0:00 /sbin/iscsid
+root      1030  0.0  0.3   5720  3508 ?        S<Ls 06:12   0:00 /sbin/iscsid
+root      1037  0.0  0.1   4396  1264 ?        Ss   06:12   0:00 /usr/sbin/acpid
+root      1045  0.0  0.2  27728  2888 ?        Ss   06:12   0:00 /usr/sbin/cron -f
+root      1051  0.0  0.1 234772  1524 ?        Ssl  06:12   0:00 /usr/bin/lxcfs /var/lib/lxcfs/
+root      1053  0.0  2.5 358384 25644 ?        Ssl  06:12   0:00 /usr/lib/snapd/snapd
+daemon    1057  0.0  0.2  26044  2196 ?        Ss   06:12   0:00 /usr/sbin/atd -f
+root      1059  0.2  7.0 479028 71428 ?        Ssl  06:12   0:03 /usr/bin/dockerd -H fd://
+root      1417  0.3  3.4 351096 34644 ?        Ssl  06:12   0:06  \_ docker-containerd --config /var/run/docker/containerd/containerd.toml
+root      1068  0.0  0.6 274576  6232 ?        Ssl  06:12   0:00 /usr/lib/accountsservice/accounts-daemon
+root      1071  0.0  0.3  28620  3056 ?        Ss   06:12   0:00 /lib/systemd/systemd-logind
+syslog    1076  0.0  0.3 256392  3392 ?        Ssl  06:12   0:00 /usr/sbin/rsyslogd -n
+message+  1079  0.0  0.3  42904  3800 ?        Ss   06:12   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root      1129  0.0  0.6  65508  6168 ?        Ss   06:12   0:00 /usr/sbin/sshd -D
+root      3312  0.0  0.6  94876  7024 ?        Ss   06:16   0:00  \_ sshd: vagrant [priv]
+vagrant   3350  0.0  0.4  95184  4840 ?        S    06:16   0:00      \_ sshd: vagrant@pts/2
+vagrant   3351  0.0  0.4  21324  4864 pts/2    Ss   06:16   0:00          \_ -bash
+vagrant   4148  0.0  0.3  36196  3108 pts/2    R+   06:44   0:00              \_ ps auxf
+root      1181  0.0  0.0  13372   164 ?        Ss   06:12   0:00 /sbin/mdadm --monitor --pid-file /run/mdadm/monitor.pid --daemonise --scan --syslog
+lxc-dns+  1192  0.0  0.2  51584  2900 ?        S    06:12   0:00 dnsmasq -u lxc-dnsmasq --strict-order --bind-interfaces --pid-file=/run/lxc/dnsmasq.pid --listen-address 10.0.3.1 --
+root      1194  0.0  0.6 277088  6112 ?        Ssl  06:12   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1261  0.0  0.0  19472   220 ?        Ss   06:12   0:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root      1295  0.0  0.2 247060  2592 ?        Sl   06:12   0:00 /usr/sbin/VBoxService
+root      1307  0.0  0.2  14472  2168 ttyS0    Ss+  06:12   0:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+root      1314  0.0  0.1  14656  1804 tty1     Ss+  06:12   0:00 /sbin/agetty --noclear tty1 linux
+lxd       1397  0.0  0.2  51584  2920 ?        S    06:12   0:00 dnsmasq -s lxd -S /lxd/ -u lxd --strict-order --bind-interfaces --pid-file=/run/lxd-bridge//dnsmasq.pid --dhcp-no-ov
+root      1412  0.2  2.9 693832 29640 ?        Ssl  06:12   0:03 /usr/bin/lxd --group lxd --logfile=/var/log/lxd/lxd.log
+root      1465  0.0  0.5  99536  5356 ?        Ss   06:12   0:00 [lxc monitor] /var/lib/lxd/containers attacker
+100000    1493  0.0  0.5  37516  5392 ?        Ss   06:12   0:00  \_ /sbin/init
+100000    1765  0.0  0.2  33432  2980 ?        Ss   06:12   0:00      \_ /lib/systemd/systemd-journald
+100000    1766  0.0  0.3  41720  3172 ?        Ss   06:12   0:00      \_ /lib/systemd/systemd-udevd
+100000    2363  0.0  0.2  16124  2700 ?        Ss   06:12   0:00      \_ /sbin/dhclient -1 -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -I -df /var/lib/dhcp/
+100104    2677  0.0  0.3 186896  3220 ?        Ssl  06:12   0:00      \_ /usr/sbin/rsyslogd -n
+100000    2678  0.0  0.2  27728  2552 ?        Ss   06:12   0:00      \_ /usr/sbin/cron -f
+100107    2679  0.0  0.3  42904  3760 ?        Ss   06:12   0:00      \_ /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+100000    2691  0.0  0.5 274488  5912 ?        Ssl  06:12   0:00      \_ /usr/lib/accountsservice/accounts-daemon
+100000    2692  0.0  2.5 358384 25896 ?        Ssl  06:12   0:00      \_ /usr/lib/snapd/snapd
+100001    2698  0.0  0.2  26044  2176 ?        Ss   06:12   0:00      \_ /usr/sbin/atd -f
+100000    2705  0.0  0.1  20096  1160 ?        Ss   06:12   0:00      \_ /lib/systemd/systemd-logind
+100000    2758  0.0  0.5  65508  5264 ?        Ss   06:12   0:00      \_ /usr/sbin/sshd -D
+100000    2778  0.0  0.1  14472  1816 pts/0    Ss+  06:12   0:00      \_ /sbin/agetty --noclear --keep-baud console 115200 38400 9600 vt220
+100000    2790  0.0  0.5 277180  5968 ?        Ssl  06:12   0:00      \_ /usr/lib/policykit-1/polkitd --no-debug
+root      1684  0.0  0.5  99536  5504 ?        Ss   06:12   0:00 [lxc monitor] /var/lib/lxd/containers victim
+100000    1852  0.0  0.5  37472  5404 ?        Ss   06:12   0:00  \_ /sbin/init
+100000    2087  0.0  0.2  33432  3008 ?        Ss   06:12   0:00      \_ /lib/systemd/systemd-journald
+100000    2089  0.0  0.3  41720  3256 ?        Ss   06:12   0:00      \_ /lib/systemd/systemd-udevd
+100000    2585  0.0  0.2  16124  2696 ?        Ss   06:12   0:00      \_ /sbin/dhclient -1 -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -I -df /var/lib/dhcp/
+100107    2906  0.0  0.3  42904  3820 ?        Ss   06:12   0:00      \_ /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+100000    2919  0.0  0.5 274488  5820 ?        Ssl  06:12   0:00      \_ /usr/lib/accountsservice/accounts-daemon
+100104    2921  0.0  0.3 186896  3204 ?        Ssl  06:12   0:00      \_ /usr/sbin/rsyslogd -n
+100001    2922  0.0  0.2  26044  2108 ?        Ss   06:12   0:00      \_ /usr/sbin/atd -f
+100000    2933  0.0  0.2  27728  2520 ?        Ss   06:12   0:00      \_ /usr/sbin/cron -f
+100000    2941  0.0  0.1  20096  1160 ?        Ss   06:12   0:00      \_ /lib/systemd/systemd-logind
+100000    2959  0.0  2.5 292848 25732 ?        Ssl  06:12   0:00      \_ /usr/lib/snapd/snapd
+100000    3019  0.0  0.5  65508  5556 ?        Ss   06:12   0:00      \_ /usr/sbin/sshd -D
+100000    3027  0.0  0.1  14472  1780 pts/1    Ss+  06:12   0:00      \_ /sbin/agetty --noclear --keep-baud console 115200 38400 9600 vt220
+100000    3036  0.0  0.5 277180  6060 ?        Ssl  06:12   0:00      \_ /usr/lib/policykit-1/polkitd --no-debug
+100000    3050  0.0  0.1 124972  1420 ?        Ss   06:12   0:00      \_ nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+100033    3055  0.0  0.3 125332  3144 ?        S    06:12   0:00          \_ nginx: worker process
+100033    3056  0.0  0.3 125332  3144 ?        S    06:12   0:00          \_ nginx: worker process
+vagrant   3314  0.0  0.4  45280  4480 ?        Ss   06:16   0:00 /lib/systemd/systemd --user
+vagrant   3315  0.0  0.2  63700  2252 ?        S    06:16   0:00  \_ (sd-pam)
